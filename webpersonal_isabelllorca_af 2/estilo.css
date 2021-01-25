@@ -1,0 +1,206 @@
+h1 {font-family:'Bree Serif', serif;
+color:burlywood;
+text-align: left;
+font-size:50px;
+padding-top: 70px;
+padding-bottom: 70px;}
+
+
+nav {
+    align-content: left;
+    text-align: left;
+    padding-top: 50px;
+    font-family: "Montserrat";
+    background-color: olive;
+    font-size: 10px;
+    height: 6vh;
+}
+
+li, a {
+
+    font-size: 3vw;
+    color: white;   
+}
+
+nav li a:hover {
+    color: palegoldenrod;
+}
+
+.carousel {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+   
+}
+
+.carousel img {
+    width: 100vw;
+    height: auto;
+}
+
+
+#sobremi {
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    background-color: none;
+    padding-top: 40px;
+    padding-bottom: 30px; 
+font-size: 20px;}
+#sobremi p {
+    font-family: "Montserrat";
+}
+#sobremi li {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: gray;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mifoto {
+   width: 50vw;
+    height: auto;
+    margin-left: -4.5vw;
+} 
+
+#accion {
+    font-family: "Montserrat";
+    padding-top: 50vh;
+    font-size:3vw;
+}
+
+button { 
+background-color: olive;
+font-family: "Montserrat";
+ }
+
+.container {background-color: none;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 300px;
+    }
+
+#video {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#cookies {
+            background-color: peachpuff;
+            height: 100px;
+            width: 100vw;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            align-items: center;
+        }
+
+footer {
+    align-content: center;
+    background-color: darkolivegreen;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#milogo {margin-bottom: 10vh;
+margin-top: 20px;}
+
+footer p {
+    color:antiquewhite;
+    text-align: center;
+    font-size: 12px;
+}
+
+#pie {
+    justify-content: center;
+   
+    width: 100vw;
+    height: auto;
+    background-color: darkolivegreen;
+}
+
+ 
+/*iphone 6-7-8-horizontal OK*/
+@media (min-width: 375px) {
+    
+    
+   
+    button {margin-top: 1vh;
+    margin-bottom: 1vh;}
+    #accion {margin-top: 2vh;
+    margin-bottom: 2vh;}
+    .mifoto {width: 100vw;}
+    #cookies { 
+            height: 200px;
+            width: 50vw;}
+    .carousel img {width: 100vw;
+    height: 95vh;}
+     
+}
+
+/*iphone 6-7-8-vertical OK*/
+@media (min-width: 667px) {
+    
+    .mifoto {
+    align-content: center;
+        width: 90vw;
+    height: 90vh;}
+    
+
+}
+
+
+/*ipad horizontal OK*/
+@media (min-width: 768px) {
+    .carousel {
+        margin-top: 2vh;
+        
+}
+    .carousel img {
+        width: 90vw;
+        height: 80vh;
+        margin:auto;
+    }
+    #accion {padding-top: 25vh;}
+    
+    .mifoto {width: 60vw;}
+    
+}
+
+/*ipad vertical OK*/
+@media (max-width: 768px) {
+     #accion {padding-top: 3vh;}
+    h1 {font-size: 5.5vh;}
+    .mifoto {width: 100vw;}
+
+    
+/*pantalla*/ 
+@media (max-width: 1024px) {
+    
+   
+    
+  
+}  
+    
+/*pantalla*/ 
+@media (min-width: 1200px) {
+
+     .carousel {
+        margin-left: 17.8vw;
+    }
+
+    .carousel img {
+        width: 60vw;
+        height: auto;
+        margin: auto;
+    }
+    
+}
